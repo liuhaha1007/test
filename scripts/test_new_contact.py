@@ -9,7 +9,7 @@ class TestNewContact:
         self.driver = init_driver()
         self.page = Page(self.driver)
     def test_new_contact(self):
-        name = '阿好'
+        name = '阿好1'
         phone = "18503080303"
 
         self.page.contact_page.click_new_contact()
