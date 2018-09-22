@@ -18,9 +18,7 @@ class TestNewContact:
         self.page.new_contact_page.input_phone(phone)
         self.page.new_contact_page.click_back()
 
-        # try:
+
         assert name == self.page.result_contact_page.get_large_title()
-        #     print("成功")
-        # except Exception:
-        #     print("失败")
+
 
