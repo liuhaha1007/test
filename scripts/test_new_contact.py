@@ -22,5 +22,7 @@ class TestNewContact:
         assert name == self.page.result_contact_page.get_large_title()
     def test_case(self):
         assert 0
-
+    
+    def test_case1(self):
+        assert 1
 
